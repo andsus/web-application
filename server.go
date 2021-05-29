@@ -4,9 +4,9 @@ import (
 	"net/http"
 	"os"
 
-	"github.com/codegangsta/negroni"
 	"github.com/gorilla/mux"
 	"github.com/unrolled/render"
+	"github.com/urfave/negroni"
 )
 
 var webRoot string

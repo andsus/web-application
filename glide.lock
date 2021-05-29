@@ -1,12 +1,19 @@
-hash: 8bcf73a81d58084e235df74aa56077aff977b5266b65e957e097479574b3260c
-updated: 2016-05-24T12:18:36.236855085-04:00
+hash: f1b953913c42c87a4f8f617ec17e3d5462b932a2b78b921186029709f3117e69
+updated: 2021-05-29T12:25:50.035988851-07:00
 imports:
-- name: github.com/codegangsta/negroni
-  version: ffbc66b612ee3eac2eba29aedce4c3a65e4dd0a1
-- name: github.com/gorilla/context
-  version: a8d44e7d8e4d532b6a27a02dd82abb31cc1b01bd
+- name: github.com/fsnotify/fsnotify
+  version: 7f4cf4dd2b522a984eaca51d1ccee54101d3414a
 - name: github.com/gorilla/mux
-  version: 9c19ed558d5df4da88e2ade9c8940d742aef0e7e
+  version: d07530f46e1eec4e40346e24af34dcc6750ad39f
 - name: github.com/unrolled/render
-  version: 198ad4d8b8a4612176b804ca10555b222a086b40
-devImports: []
+  version: a3f5fc8c4d24c8a09720094b04ffa433f6d05eab
+- name: github.com/urfave/cli
+  version: 581b769cf3ee996b7277e895b30afa3f3e6921bf
+- name: github.com/urfave/negroni
+  version: 7915ed3d6bdb7d071a72f9f1e15ace4c78e97636
+- name: golang.org/x/sys
+  version: 35b2ab0089ea3ee6aace3725af1e000ea04a8ea1
+  subpackages:
+  - internal/unsafeheader
+  - unix
+testImports: []
