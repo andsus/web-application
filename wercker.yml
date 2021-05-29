@@ -19,6 +19,7 @@ build:
     - script:
         name: go build
         code: |
+          go env -w GO111MODULE=auto
           go build
 
     # Test the project
