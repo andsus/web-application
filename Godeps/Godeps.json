@@ -1,0 +1,38 @@
+{
+	"ImportPath": "github.com/andsus/web-application",
+	"GoVersion": "go1.16",
+	"GodepVersion": "v80",
+	"Packages": [
+		"./..."
+	],
+	"Deps": [
+		{
+			"ImportPath": "github.com/fsnotify/fsnotify",
+			"Comment": "v1.4.9-1-g7f4cf4d",
+			"Rev": "7f4cf4dd2b522a984eaca51d1ccee54101d3414a"
+		},
+		{
+			"ImportPath": "github.com/gorilla/mux",
+			"Comment": "v1.8.0-1-gd07530f",
+			"Rev": "d07530f46e1eec4e40346e24af34dcc6750ad39f"
+		},
+		{
+			"ImportPath": "github.com/unrolled/render",
+			"Comment": "v1.4.0",
+			"Rev": "a3f5fc8c4d24c8a09720094b04ffa433f6d05eab"
+		},
+		{
+			"ImportPath": "github.com/urfave/negroni",
+			"Comment": "v2.0.2-4-g7915ed3",
+			"Rev": "7915ed3d6bdb7d071a72f9f1e15ace4c78e97636"
+		},
+		{
+			"ImportPath": "golang.org/x/sys/internal/unsafeheader",
+			"Rev": "35b2ab0089ea3ee6aace3725af1e000ea04a8ea1"
+		},
+		{
+			"ImportPath": "golang.org/x/sys/unix",
+			"Rev": "35b2ab0089ea3ee6aace3725af1e000ea04a8ea1"
+		}
+	]
+}
