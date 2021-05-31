@@ -1,6 +1,6 @@
 {
 	"ImportPath": "github.com/andsus/web-application",
-	"GoVersion": "go1.16",
+	"GoVersion": "go1.15",
 	"GodepVersion": "v80",
 	"Packages": [
 		"./..."
